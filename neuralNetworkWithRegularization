@@ -20,8 +20,8 @@ tf.random.set_seed(seed_value)
 #drive.mount('/content/drive')
 
 # Define directories
-training_dir = '/content/drive/MyDrive/physicsToneData/Old/voiceMemos/Regenron Research Data/Training and Dev Set'
-test_dir = '/content/drive/MyDrive/physicsToneData/Old/voiceMemos/Regenron Research Data/Test Set'
+training_dir = 'Training and Dev Set'
+test_dir = 'Test Set'
 
 # Function to extract audio features
 def extract_features(file_path):
