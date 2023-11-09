@@ -43,8 +43,8 @@ def extract_audio_features(audio_file):
         'Rms': rms
     }
 
-# Directory containing audio files
-audio_dir = '/content/drive/MyDrive/physicsToneData/Old/voiceMemos/Regenron Research Data/Training and Dev Set'
+# Directory containing audio files - CHANGE THIS!
+audio_dir = 'audioDataFolder'
 
 performer_labels = []
 audio_features = []
